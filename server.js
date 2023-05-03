@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 console.log(__dirname);
 
 // Definiere den Pfad zum statischen Ordner mit der index.html und allen anderen benötigten Dateien
-const staticPath = path.join(__dirname, 'src');
+const staticPath = path.join(__dirname, 'public');
 
 // Middleware-Funktion, die die MIME-Typen überprüft und richtig zuordnet
 const getMimeType = (filePath) => {
